@@ -1,0 +1,110 @@
+CB - Checkbox
+DD - Drop down
+I - Input
+B - Button
+L - List
+T - Table
+
+
+Add Company:
+=============
+name (I)
+
+Buttons: Save, Clear
+
+
+Add Category:
+=============
+category name
+
+Buttons: Save, Clear
+
+Add Collector:
+===============
+Collector name
+
+
+Add Guarantor:
+===============
+name
+father name
+address
+nic
+Phone number
+mobile
+
+
+
+================================================================================
+================================================================================
+
+Add Item:
+============
+Model (I)
+Description (I)
+Company (DD or I with Autocomplete)
+Category (DD or I with Autocomplete)
+Type (DD or I with Autocomplete)
+--> TO BE ASKED: type kya hai?
+
+Buttons: Save, Clear
+
+Item Purchase:
+===============
+company(DD or I with auto complete)
+remarks (I)
+Date/Time (Current Time or anything for date and time)
+	Item (I readOnly)
+	Item Description(I readOnly)
+	Quantity(I)              
+	Rate(I)                  
+	Amount(I)                
+	Purchase Rate(I)         
+	Sale Rate                
+	Retail Rate              
+	Fix Rate                 
+	
+--> TO BE ASKED: har cheez purchase krny k baad us ki ye sb values ati hen? or in me sy kon kon c use hoti hen?
+--> TO BE ASKED: item ki pichli prices b rkhni hen or latest b? ya just latest price ya last 3 prices. or sale k wqt kis ki amount km krni ha? kis purchase wali khatm krni hai?
+
+Buttons: Save, Clear, Print
+
+Add Customer:
+==============
+Name (I)
+Father name (I)
+address (I)
+NIC (I format of XXXXX-XXXXXXXX-X)
+Mobile Number (DD plus I)
+Phone Number (DD plus I)
+Official (I)
+profession (I)
+
+
+Item Sale:
+===========
+Customer (DD or I with auto complete)
+Customer Name (I)
+Customer Address (I)
+Remarks (I)
+manual code[Book] (I)
+	Item Description (I)
+	Cost (I numeric only)
+	Quantity (I numeric only)
+	Rate (I numeric only)
+	Amount (I numeric only)
+	Rent Amt []TO BE ASKED: what is this attribute and how is it used?]
+	Total Amount (I numeric only)
+	
+Advance Amount (I numeric only)
+Remaining Amount Due (I numeric only)
+Installment Amount (I numeric only)
+Total Installments (I numeric only)
+Promise Date (I date only)
+
+--> TO BE ASKED: ik item k against ik advance amount aye gi? ya sb cheezen ly k ik advance deta hai or installments shuru?
+
+Collector (DD or I with autocomplete)
+Collection mode (DD)
+Reference (I)
+Guaranter name (I)

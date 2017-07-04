@@ -1,0 +1,33 @@
+Tables:
+=======
+
+
+
+Company			Category		Item		Collector		Guarantor		Customer		Type
+								
+								
+								
+								
+								
+								
+								
+								
+Purchase			Sale
+=========			=======
+1-1Company         	1-1 Customer
+					1-* Item
+					1-* Purchase
+					1-1 Collector
+					1-*Guarantor
+				
+--> TO BE ASKED: ik purchase ki jo entry hoti hai wo ik company ki hoti hai ya ikatha maal enter krna hai. means multiple compnies ki purchase ki entry
+
+
+
+
+
+
+
+
+User management
+================
